@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>湖北大红花商用设备有限公司</title>
+    <style>
+      *{
+        margin:0 ;
+        padding: 0;
+      }
+      img{
+        width: 100%
+      }
+      ul,li{ padding:0;margin:0;list-style:none}
+      a{
+        text-decoration: none;
+      }
+      body{
+        min-width: 1200px;
+      }
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but 湖北大红花商用设备有限公司 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+       function goPAGE() {
+          if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+              window.location.href="http://m.dahonghua.cn";
+          }
+          
+      }
+      goPAGE();
+    </script>
   </body>
 </html>
