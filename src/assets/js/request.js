@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-var baseUrl = "http://dahonghua.shangyouyun.cn";
+var baseUrl = "http://dahonghua.shangyouyun.cn/index.php";
 
 var  HttpRequest={
     getRequest({ url, data = {}, method = "GET" }) {
