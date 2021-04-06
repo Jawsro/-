@@ -13,10 +13,11 @@
                     <p>公司概况</p>
                     <div class="pages">
                       <p>企业简介</p>
-                      <p>组织机构</p>
+                       <p>荣誉资质</p>
+                      <!--<p>组织机构</p>
                       <p>企业文化</p>
-                      <p>荣誉资质</p>
-                      <p>人才招聘</p>
+                     
+                      <p>人才招聘</p>-->
                     </div>
                   </li>
                   <li>
@@ -45,7 +46,7 @@
                     <p>联系我们</p>
                     <div class="pages">
                       <p>联系方式</p>
-                      <p>留言咨询</p>
+                      <!--<p>留言咨询</p>-->
                     </div>
                   </li>
                 </ul>
@@ -75,14 +76,14 @@
                 </el-col>
                 <el-col :xs="24" :sm="10" :md="9" :lg="10" :xl="9">
                   <div >
-                    <p class="margin-top">手机号：13986804328 13986776714</p>
+                    <p class="margin-top">手机号：<span style='margin-right:10px'>13986804328</span> 13986776714</p>
                     <p class="margin-top">电话:0717-4880251 0717-4881098(传真)</p>
                   </div>
                 </el-col>
                 <el-col :xs="24" :sm="10" :md="9" :lg="10" :xl="9">
                   <div class="">
                     <p class="margin-top">邮箱: wjh-1109@163.com</p>
-                    <p class="margin-top">武汉办事处:硚C区操场角6号汉华花园B座11--5号</p>
+                    <p class="margin-top">地址:湖北省宜都市红花套镇红花套村</p>
                   </div>
                 </el-col>
               </el-row>

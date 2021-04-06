@@ -131,7 +131,7 @@ export default {
             username:this.ruleForm.username,
             tel_num:this.ruleForm.tel_num,
             email:this.ruleForm.email,
-            corpany_name:this.ruleForm.corpany_name,
+            company_name:this.ruleForm.company_name,
             address:this.ruleForm.address,
             order_info:this.ruleForm.order_info
           };

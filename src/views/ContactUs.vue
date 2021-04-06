@@ -2,7 +2,7 @@
   <div class="contactUs">
       <Header></Header>
       <div class="main">
-        <img src="@/assets/img/map.jpg" alt="">
+        <img src="@/assets/img/map.png" alt="">
         <el-row>
           <el-col :xs="1" :sm="2" :md="3" :lg="4" :xl="5" style="color: transparent;">1</el-col>
           <el-col :xs="22" :sm="20" :md="18" :lg="16" :xl="14">
@@ -11,13 +11,13 @@
               <div class="information">
                 <div class="left">
                   <p >邮编： 443302</p>
-                  <p>电话： 0717-4880251 0717-4881098 (传真)</p>
-                  <p>武汉办事处：硚口区操场角6号汉华花园B座11- 5号</p>
+                  <p>电话： <span style='margin-right:5px'>0717-4880251</span> 0717-4881098 (传真)</p>
+                  <p>地址：湖北省宜都市红花套镇红花套村</p>
                 </div>
                 <div class="right">
                   <p>
                     <span>手机：</span>
-                    <span>13986804328</span>
+                    <span style='margin-right:5px'>13986804328</span>
                     <span>13986776714</span>
                   </p>
                   <p>邮箱： wjh-1109@163. com</p>
